@@ -27,4 +27,4 @@ May the force be with you :space_invader: !
 
 ## To go further..
 
-Look at: <https://github.com/jasmine/jasmine> (T.D.D.)
+Look at: <http://rspec.info/> (T.D.D.)
