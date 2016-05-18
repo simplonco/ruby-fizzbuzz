@@ -3,6 +3,5 @@ class Integer
         #
         # YOUR CODE GOES HERE
         #
-        self
     end
 end
