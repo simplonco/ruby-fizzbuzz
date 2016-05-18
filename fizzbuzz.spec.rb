@@ -1,4 +1,4 @@
-require 'fizzbuzz'
+require_relative 'fizzbuzz.rb'
 
 describe 'fizzbuzz' do
     it 'return 1 when passed 1' do
