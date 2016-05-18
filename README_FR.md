@@ -13,12 +13,12 @@
 
 ## Exemples
 
-```javascript
-fizzbuzz(2) => 2
-fizzbuzz(5) => "buzz"
-fizzbuzz(6) => "fizz"
-fizzbuzz(11) => 11
-fizzbuzz(30) => "fizzbuzz"
+```ruby
+2.fizzbuzz => 2
+5.fizzbuzz => "buzz"
+6.fizzbuzz => "fizz"
+11.fizzbuzz => 11
+30.fizzbuzz => "fizzbuzz"
 ```
 
 ## GO, GO, GO !
