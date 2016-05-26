@@ -10,7 +10,4 @@ def fizzbuzz(range, triggers)
 end
 end
 
-fizzbuzz(1..100, [
-  ['Fizz', 3],
-  ['Buzz', 5],
-])
+Integer.new
