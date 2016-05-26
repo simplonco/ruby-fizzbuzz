@@ -13,4 +13,3 @@ def fizz_buzz_1(max)
   end
   return arr
 end
-#
