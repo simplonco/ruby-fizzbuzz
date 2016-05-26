@@ -1,3 +1,4 @@
+class Integer
 def fizzbuzz(range, triggers)
   range.each do |i|
     result = ''
@@ -7,6 +8,8 @@ def fizzbuzz(range, triggers)
     puts result == '' ? i : result
   end
 end
+end
+
 fizzbuzz(1..100, [
   ['Fizz', 3],
   ['Buzz', 5],
