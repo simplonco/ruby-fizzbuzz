@@ -1,13 +1,16 @@
 class Integer
-def fizzbuzz(range, triggers)
-  range.each do |i|
-    result = ''
-    triggers.each do |(text, divisor)|
-      result << text if i % divisor == 0
+def fizzbuzz
+  (1..20).each do |x|
+     m3 = x.modulo(3) == 0
+     m5 = x.modulo(5) == 0
+
+     puts case
+       when (m3 and m5) then 'FizzBuzz'
+       when m3 then 'Fizz'
+       when m5 then 'Buzz'
+       else x
+     end
     end
-    puts result == '' ? i : result
-  end
 end
 end
 
-Integer.new
