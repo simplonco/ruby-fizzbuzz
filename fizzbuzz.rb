@@ -1,4 +1,3 @@
-
 def fizz_buzz_1(max)
   arr = []
   (1..max).each do |n|
@@ -14,3 +13,4 @@ def fizz_buzz_1(max)
   end
   return arr
 end
+#
