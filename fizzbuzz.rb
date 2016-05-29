@@ -13,11 +13,3 @@ def fizz_buzz_1(max)
   end
   return arr
 end
-
-class Integer
-   def fizzbuzz
-      #
-      # YOUR CODE GOES HERE
-      #
-   end
-end
