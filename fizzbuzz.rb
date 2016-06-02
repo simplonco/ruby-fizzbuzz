@@ -1,13 +1,15 @@
 def fizzbuzz(n)
-  (1..n).each do |i|
-    if i % 3 == 0 && i % 5 == 0
-      puts 'fizzbuzz'
-    elsif i % 3 == 0
-      puts 'fizz'
-    elsif i % 5 == 0
-      puts 'buzz'
+1.upto(100) do |n|
+  i_3 = (n % 3 == 0)
+  i_5 = (n % 5 == 0)
+  puts case
+    when i_3 && i_5
+      'fizzbuzz'
+    when i_3
+      'fizz'
+    when i_5
+      'buzz'
     else
-      puts i
-    end
+      n
   end
 end
