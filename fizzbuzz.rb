@@ -1,11 +1,12 @@
-def fizzbuzz(int)
-if int == 15
-"FizzBuzz"
-elsif int % 3 == 0
-  "Fizz"
-elsif int % 5 == 0
-  "Buzz"
-else
-  puts ""
-end
+class Integer
+   def fizzbuzz
+     if Integer == 15
+     "FizzBuzz"
+   elsif Integer % 3 == 0
+       "Fizz"
+     elsif Integer % 5 == 0
+       "Buzz"
+     else
+       puts ""
+   end
 end
